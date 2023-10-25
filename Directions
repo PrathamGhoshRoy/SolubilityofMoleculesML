@@ -1,0 +1,39 @@
+Machine Learning Project - Solubility of Molecules
+Understanding the solubility of molecules is crucial in various fields and for a range of practical applications because of the following reasons:
+
+1. Drug Development: In the pharmaceutical industry, it is essential to understand the solubility of drug compounds. Poorly soluble drugs may not be effectively absorbed in the body, leading to reduced efficacy. Knowledge of solubility is critical for formulating medications and ensuring their effectiveness.
+
+2. Environmental Science: The solubility of substances in water is vital for environmental scientists to study the transport of pollutants and chemicals in aquatic ecosystems. Understanding solubility helps in managing and mitigating water pollution.
+
+3. Chemistry and Chemical Reactions: Solubility plays a significant role in chemical reactions. In chemistry, it is crucial to know which substances are soluble in specific solvents to predict the outcome of reactions, precipitate formation, and product yields.
+
+4. Food and Beverage Industry: Food scientists use solubility data to develop new products, determine the solubility of ingredients in various food matrices, and improve product quality and stability.
+
+5. Water Treatment: In water treatment processes, understanding the solubility of minerals and contaminants is essential for designing effective treatment methods. For example, it helps in removing hardness ions from water.
+
+6. Agriculture: Solubility is important in agriculture for understanding nutrient availability in soil and optimizing fertilization practices. It also helps manage soil salinity, which can affect crop growth.
+
+7. Material Science: In material science and nanotechnology, understanding the solubility of nanoparticles and other materials in solvents is critical for the fabrication of nanomaterials and advanced materials.
+
+8. Geology: Geologists study the solubility of minerals in geological processes, such as the formation of sedimentary rocks, mineral deposits, and the weathering of rocks.
+
+9. Research and Experimentation: In scientific research and laboratory experiments, knowing the solubility of compounds helps design experiments, prepare solutions, and analyze results accurately.
+
+10. Everyday Life: Understanding the solubility of everyday substances affects household activities, such as cleaning, cooking, and laundry. For example, it guides the choice of cleaning agents and detergents.
+
+----------------------------------------------------------------------------------------------
+
+Understanding the variables in the Table
+Questions to self -
+
+What is the input or X variable? Are there many?
+What is the Y or output/dependent variable?
+f(x) = y
+
+f(MolLogP, MolWt, NumRotatableBonds, AromaticProportion) = logS
+
+As we can see, there are several Xs or input variables, hence this is a multi-variate analysis.
+
+----------------------------------------------------------------------------------------------
+
+Obviously, the split ratio of train to test would be 1:4, so 80% of the data will be assigned for training the model, and the rest 20% will be used to test the trained model.
